@@ -1,4 +1,27 @@
 const POPULATION_SIZE = 500;
+const KEZD_X = 150;
+const EMPTY_HEIGHT = 150;
+const PIPE_WIDTH = 80;
+const PIPE_VELOCITY = 5;
+const GRAVITY = 0.95;
+const BIRD_LIFT_ACCELERATION = -13;
+const FRAME_PER_PIPE = 60;
+const CLOSEST_PIPE_TO_SCREEN = 40;
+
+
+/*
+
+-----original flappy bird----------------------------
+const KEZD_X = 150;
+const EMPTY_HEIGHT = 150;
+const PIPE_WIDTH = 80;
+const PIPE_VELOCITY = 5;
+const GRAVITY = 0.95;
+const BIRD_LIFT_ACCELERATION = -13;
+const FRAME_PER_PIPE = 60;
+const CLOSEST_PIPE_TO_SCREEN = 40;
+
+-----extreme hard------------------------------------
 const KEZD_X = 100;
 const EMPTY_HEIGHT = 110;
 const PIPE_WIDTH = 70;
@@ -7,6 +30,8 @@ const GRAVITY = 1.2;
 const BIRD_LIFT_ACCELERATION = -14;
 const FRAME_PER_PIPE = 55;
 const CLOSEST_PIPE_TO_SCREEN = 70;
+
+*/
 
 
 let showBest = false;
